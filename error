@@ -1,0 +1,29 @@
+Si è verificato un errore durante l'esecuzione del codice Python:  
+NameError: name 'QadVariablesClass' is not defined 
+Traceback (most recent call last):
+  File "/Users/matteocapuani/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/qad/qad_options_dlg.py", line 493, in Button_AutoSnapWindowColor_clicked
+    Form = QadWindowColorDialog(self.plugIn, self, QadColorContextEnum.MODEL_SPACE_2D, QadColorElementEnum.AUTOSNAP_MARKER)
+  File "/Users/matteocapuani/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/qad/qad_windowcolor_dlg.py", line 82, in __init__
+    self.tempQadVariables = QadVariablesClass()
+NameError: name 'QadVariablesClass' is not defined
+ Versione Python: 3.7.3 (default, Mar 27 2019, 09:23:15) [Clang 10.0.1 (clang-1001.0.46.3)]  Versione di QGIS: 3.12.0-București București, 409bcf8eaa  
+Percorso Python:
+* /Users/matteocapuani/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/networks
+* /Users/matteocapuani/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/LAStools
+* /Applications/QGIS3.12.app/Contents/MacOS/../Resources/python
+* /Users/matteocapuani/Library/Application Support/QGIS/QGIS3/profiles/default/python
+* /Users/matteocapuani/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins
+* /Applications/QGIS3.12.app/Contents/MacOS/../Resources/python/plugins
+* /Applications/QGIS3.12.app/Contents/Frameworks/Python.framework/Versions/Current/lib/python37.zip
+* /Applications/QGIS3.12.app/Contents/Frameworks/Python.framework/Versions/Current/lib/python3.7/site-packages
+* /Applications/QGIS3.12.app/Contents/Frameworks/Python.framework/Versions/Current/lib/python3.7/lib-dynload
+* /Applications/QGIS3.12.app/Contents/Frameworks/Python.framework/Versions/Current/lib/python3.7/site-packages/geos
+* /Applications/QGIS3.12.app/Contents/Frameworks/Python.framework/Versions/Current/lib/python3.7
+* /Applications/QGIS3.12.app/Contents/Resources/python
+* /Users/matteocapuani/Library/Application Support/QGIS/QGIS3/profiles/default/python
+* /Users/matteocapuani/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/joinmultiplelines
+* /Users/matteocapuani/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/qgis2web
+* /Users/matteocapuani/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins
+* /Users/matteocapuani/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/mmqgis/forms
+* /Users/matteocapuani/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/shapetools/ext-libs
+* /Users/matteocapuani/Documents/@Dati_gis_eurovelo/FROSINONE
